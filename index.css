@@ -50,7 +50,7 @@
     font-family: 'Alfa Slab One', cursive;
   position: relative;
   display: inline-block;
-  color: #f20f0f;
+  color: #ed0606;
   text-transform: uppercase;
     animation: waviy 1s infinite;
   animation-delay: calc(.1s * var(--i));
@@ -83,25 +83,6 @@
     align-items: center;
     background-color: #f3f3f3c0;
     padding: 50px 30px;
-    background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-  position: content: '\F0779';;
-    
 }
 
 .link-to-book {
@@ -111,9 +92,9 @@
     padding: 5px 10px;
     background-image: linear-gradient(
     -225deg,
-    #571815 0%,
-    #25de08 29%,
-    #f10c0c 67%,
+    #f00a0a 0%,
+    #07eb2a 29%,
+    #1b09de 67%,
     #fff800 100%
   );
   background-size: auto auto;
@@ -126,7 +107,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 30px;   
+  font-size: 30px;
 }
 
 a.link-to-book:hover {
@@ -147,7 +128,6 @@ a.link-to-book:hover {
     animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
   
-
 }
 @keyframes flip {
     0%,80% {
